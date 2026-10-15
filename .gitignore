@@ -1,0 +1,10 @@
+# build tools
+node_modules/
+
+# original/unused images kept locally, not deployed
+_archive/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
