@@ -8,7 +8,14 @@ module.exports = {
       lg: "768px",
       xl: "1180px"
     },
-    extend: {},
+    extend: {
+      // Gaia Labs brand palette (sampled from the logo)
+      colors: {
+        cream: { DEFAULT: "#F5F4F0", 100: "#FBFAF7", 200: "#ECEAE3", 300: "#DEDBD2" },
+        ink: { DEFAULT: "#1E1E1E", soft: "#45443F", muted: "#6B6A63" },
+        leaf: { DEFAULT: "#87A375", dark: "#4E6B40", light: "#DCE6D3" },
+      },
+    },
     keyframes: {
       move: {
         "50%": { transform: "translateY(-1rem)" }

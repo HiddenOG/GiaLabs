@@ -48,9 +48,9 @@ const scrollHeader = () => {
     const header = document.getElementById("navbar")
 
     if(this.scrollY >=50) {
-        header.classList.add("border-b", "border-yellow-500")
+        header.classList.add("border-b", "border-cream-300")
     } else {
-        header.classList.remove("border-b", "border-yellow-500")
+        header.classList.remove("border-b", "border-cream-300")
     }
 }
 

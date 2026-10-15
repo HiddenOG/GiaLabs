@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gaia Labs runs solar-powered, IoT-monitored aeroponic tower farms in Lagos: automated growing machinery for Nigerian agribusiness.">
-    <meta name="theme-color" content="#052e16">
+    <meta name="theme-color" content="#F5F4F0">
 
     <!--~~~~~~~~~~~~~~~ Link previews (WhatsApp, LinkedIn, X) ~~~~~~~~~~~~~~~-->
     <meta property="og:type" content="website">
@@ -14,7 +14,6 @@
     <meta name="twitter:card" content="summary">
 
     <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
-    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="32x32">
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -32,14 +31,13 @@
 
 <body>
     <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
-    <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
-        <nav class="container flex items-center justify-between h-16 sm:h-20">
-            <a href="#home" class="relative z-50 flex items-center gap-2 font-bold sm:text-2xl">
-                <i class="ri-plant-line text-yellow-500"></i>
-                <span>Gaia Labs</span>
+    <header id="navbar" class="bg-cream fixed w-full top-0 left-0 z-50">
+        <nav class="container flex items-center justify-between h-20 sm:h-24">
+            <a href="#home" class="relative z-50 flex items-center" aria-label="Gaia Labs home">
+                <img src="assets/img/logo.webp" alt="Gaia Labs" class="h-16 sm:h-[76px] w-auto">
             </a>
 
-            <div id="nav-menu" class="fixed lg:static inset-y-0 left-[-100%] h-[100dvh] w-full invisible lg:visible bg-green-950/95 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:h-auto lg:bg-transparent lg:w-auto lg:backdrop-blur-none">
+            <div id="nav-menu" class="fixed lg:static inset-y-0 left-[-100%] h-[100dvh] w-full invisible lg:visible bg-cream/95 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:h-auto lg:bg-transparent lg:w-auto lg:backdrop-blur-none">
                 <ul class="flex flex-col items-center gap-8 lg:flex-row lg:gap-6 xl:gap-8">
                     <li><a href="#home" class="nav-link active">Home</a></li>
                     <li><a href="#machine" class="nav-link">The Machine</a></li>
@@ -69,15 +67,15 @@
         <section id="home" class="relative overflow-hidden pt-32 md:pt-40">
             <div class="container">
                 <!-- blob -->
-                <div class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/3 left-1/3"></div>
-                <div class="w-64 h-64 bg-yellow-600 rounded-full blur-3xl -z-10 opacity-20 absolute right-0 bottom-0"></div>
+                <div class="w-64 h-64 bg-leaf rounded-full blur-3xl -z-10 opacity-40 absolute top-1/3 left-1/3"></div>
+                <div class="w-64 h-64 bg-leaf rounded-full blur-3xl -z-10 opacity-20 absolute right-0 bottom-0"></div>
 
                 <div class="flex flex-col items-center gap-10 lg:flex-row">
                 <div class="home__data w-full space-y-6 lg:w-1/2">
                     <p class="eyebrow">Agritech &middot; Lagos, Nigeria</p>
 
                     <h1>
-                        Automated <span class="text-yellow-500">growing machinery</span>
+                        Automated <span class="text-leaf-dark">growing machinery</span>
                         for Nigerian agribusiness.
                     </h1>
 
@@ -99,9 +97,9 @@
 
                     <!-- TODO: point LinkedIn at the real page -->
                     <div class="flex items-center gap-5 text-lg lg:pt-6">
-                        <a href="mailto:adetomiwa@gaialabs.world" aria-label="Email"><i class="ri-mail-line text-slate-300 hover:text-yellow-500 duration-300"></i></a>
-                        <a href="https://wa.me/2347048000703" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line text-slate-300 hover:text-yellow-500 duration-300"></i></a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-300"></i></a>
+                        <a href="mailto:adetomiwa@gaialabs.world" aria-label="Email"><i class="ri-mail-line text-ink-muted hover:text-leaf-dark duration-300"></i></a>
+                        <a href="https://wa.me/2347048000703" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line text-ink-muted hover:text-leaf-dark duration-300"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill text-ink-muted hover:text-leaf-dark duration-300"></i></a>
                     </div>
                 </div>
 
@@ -111,76 +109,76 @@
 
                     <!-- leaf -->
                     <div class="absolute -top-10 right-0 opacity-30 xl:top-5 animate-movingY">
-                        <i class="ri-leaf-line text-6xl text-yellow-500"></i>
+                        <i class="ri-leaf-line text-6xl text-leaf-dark"></i>
                     </div>
 
                     <!-- flower -->
                     <div class="absolute bottom-0 left-0 opacity-30 xl:bottom-12 animate-rotating">
-                        <i class="ri-flower-line text-6xl text-yellow-500"></i>
+                        <i class="ri-flower-line text-6xl text-leaf-dark"></i>
                     </div>
 
                     <!-- plant -->
                     <div class="hidden absolute -top-8 -left-5 opacity-30 lg:block animate-scalingUp">
-                        <i class="ri-plant-line text-6xl text-yellow-500"></i>
+                        <i class="ri-plant-line text-6xl text-leaf-dark"></i>
                     </div>
                 </div>
                 </div>
 
                 <!-- subsystem strip: each tile jumps to its card in "How our system works" -->
-                <div class="home__strip grid grid-cols-2 lg:grid-cols-4 gap-px bg-green-800 border border-green-800 rounded-md overflow-hidden mt-16 md:mt-24">
+                <div class="home__strip grid grid-cols-2 lg:grid-cols-4 gap-px bg-cream-300 border border-cream-300 rounded-md overflow-hidden mt-16 md:mt-24">
                     <div class="hoist relative overflow-hidden" style="--i: 0">
                         <span class="rope left-[22%]" aria-hidden="true"></span>
                         <span class="rope right-[22%]" aria-hidden="true"></span>
-                        <a href="#sub-structure" data-target="sub-structure" class="subsys group relative z-10 block h-full bg-green-950 p-5 overflow-hidden">
-                            <span class="absolute inset-0 group-hover:bg-green-900/70 group-focus-visible:bg-green-900/70 duration-300"></span>
-                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-yellow-500 group-hover:w-full group-focus-visible:w-full duration-500"></span>
-                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-slate-500 opacity-0 group-hover:opacity-100 duration-300"></i>
+                        <a href="#sub-structure" data-target="sub-structure" class="subsys group relative z-10 block h-full bg-white p-5 overflow-hidden">
+                            <span class="absolute inset-0 group-hover:bg-cream-100 group-focus-visible:bg-cream-100 duration-300"></span>
+                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-leaf group-hover:w-full group-focus-visible:w-full duration-500"></span>
+                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-ink-muted opacity-0 group-hover:opacity-100 duration-300"></i>
                             <span class="relative block">
-                                <i class="ri-building-4-line inline-block text-2xl text-yellow-500 origin-bottom motion-safe:group-hover:animate-grow"></i>
+                                <i class="ri-building-4-line inline-block text-2xl text-leaf-dark origin-bottom motion-safe:group-hover:animate-grow"></i>
                                 <span class="block font-bold mt-2">Aeroponic towers</span>
-                                <span class="block text-sm text-slate-400">Structure</span>
+                                <span class="block text-sm text-ink-muted">Structure</span>
                             </span>
                         </a>
                     </div>
                     <div class="hoist relative overflow-hidden" style="--i: 1">
                         <span class="rope left-[22%]" aria-hidden="true"></span>
                         <span class="rope right-[22%]" aria-hidden="true"></span>
-                        <a href="#sub-power" data-target="sub-power" class="subsys group relative z-10 block h-full bg-green-950 p-5 overflow-hidden">
-                            <span class="absolute inset-0 group-hover:bg-green-900/70 group-focus-visible:bg-green-900/70 duration-300"></span>
-                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-yellow-500 group-hover:w-full group-focus-visible:w-full duration-500"></span>
-                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-slate-500 opacity-0 group-hover:opacity-100 duration-300"></i>
+                        <a href="#sub-power" data-target="sub-power" class="subsys group relative z-10 block h-full bg-white p-5 overflow-hidden">
+                            <span class="absolute inset-0 group-hover:bg-cream-100 group-focus-visible:bg-cream-100 duration-300"></span>
+                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-leaf group-hover:w-full group-focus-visible:w-full duration-500"></span>
+                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-ink-muted opacity-0 group-hover:opacity-100 duration-300"></i>
                             <span class="relative block">
-                                <i class="ri-sun-line inline-block text-2xl text-yellow-500 motion-safe:group-hover:animate-spinSlow"></i>
+                                <i class="ri-sun-line inline-block text-2xl text-leaf-dark motion-safe:group-hover:animate-spinSlow"></i>
                                 <span class="block font-bold mt-2">Solar</span>
-                                <span class="block text-sm text-slate-400">Power</span>
+                                <span class="block text-sm text-ink-muted">Power</span>
                             </span>
                         </a>
                     </div>
                     <div class="hoist relative overflow-hidden" style="--i: 2">
                         <span class="rope left-[22%]" aria-hidden="true"></span>
                         <span class="rope right-[22%]" aria-hidden="true"></span>
-                        <a href="#sub-control" data-target="sub-control" class="subsys group relative z-10 block h-full bg-green-950 p-5 overflow-hidden">
-                            <span class="absolute inset-0 group-hover:bg-green-900/70 group-focus-visible:bg-green-900/70 duration-300"></span>
-                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-yellow-500 group-hover:w-full group-focus-visible:w-full duration-500"></span>
-                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-slate-500 opacity-0 group-hover:opacity-100 duration-300"></i>
+                        <a href="#sub-control" data-target="sub-control" class="subsys group relative z-10 block h-full bg-white p-5 overflow-hidden">
+                            <span class="absolute inset-0 group-hover:bg-cream-100 group-focus-visible:bg-cream-100 duration-300"></span>
+                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-leaf group-hover:w-full group-focus-visible:w-full duration-500"></span>
+                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-ink-muted opacity-0 group-hover:opacity-100 duration-300"></i>
                             <span class="relative block">
-                                <i class="ri-sensor-line inline-block text-2xl text-yellow-500 motion-safe:group-hover:animate-signal"></i>
+                                <i class="ri-sensor-line inline-block text-2xl text-leaf-dark motion-safe:group-hover:animate-signal"></i>
                                 <span class="block font-bold mt-2">IoT sensing</span>
-                                <span class="block text-sm text-slate-400">Control</span>
+                                <span class="block text-sm text-ink-muted">Control</span>
                             </span>
                         </a>
                     </div>
                     <div class="hoist relative overflow-hidden" style="--i: 3">
                         <span class="rope left-[22%]" aria-hidden="true"></span>
                         <span class="rope right-[22%]" aria-hidden="true"></span>
-                        <a href="#sub-delivery" data-target="sub-delivery" class="subsys group relative z-10 block h-full bg-green-950 p-5 overflow-hidden">
-                            <span class="absolute inset-0 group-hover:bg-green-900/70 group-focus-visible:bg-green-900/70 duration-300"></span>
-                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-yellow-500 group-hover:w-full group-focus-visible:w-full duration-500"></span>
-                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-slate-500 opacity-0 group-hover:opacity-100 duration-300"></i>
+                        <a href="#sub-delivery" data-target="sub-delivery" class="subsys group relative z-10 block h-full bg-white p-5 overflow-hidden">
+                            <span class="absolute inset-0 group-hover:bg-cream-100 group-focus-visible:bg-cream-100 duration-300"></span>
+                            <span class="absolute top-0 left-0 h-0.5 w-0 bg-leaf group-hover:w-full group-focus-visible:w-full duration-500"></span>
+                            <i class="ri-arrow-right-down-line absolute top-5 right-5 text-ink-muted opacity-0 group-hover:opacity-100 duration-300"></i>
                             <span class="relative block">
-                                <i class="ri-drop-line inline-block text-2xl text-yellow-500 motion-safe:group-hover:animate-drip"></i>
+                                <i class="ri-drop-line inline-block text-2xl text-leaf-dark motion-safe:group-hover:animate-drip"></i>
                                 <span class="block font-bold mt-2">Automated dosing</span>
-                                <span class="block text-sm text-slate-400">Delivery</span>
+                                <span class="block text-sm text-ink-muted">Delivery</span>
                             </span>
                         </a>
                     </div>
@@ -189,7 +187,7 @@
         </section>
 
         <!--~~~~~~~~~~~~~~~ 2. Why mechanisation is moving indoors ~~~~~~~~~~~~~~~-->
-        <section id="why" class="bg-white text-green-950 overflow-hidden">
+        <section id="why" class="bg-cream-200 text-ink overflow-hidden">
             <div class="container grid gap-14 lg:grid-cols-2 lg:gap-16 items-center">
                 <!-- photos: large back image bottom-left, framed square image overlapping top-right -->
                 <div class="why__media relative w-full max-w-[560px] mx-auto aspect-[671/817]">
@@ -204,9 +202,9 @@
 
                 <!-- text -->
                 <div class="why__body space-y-6">
-                    <p class="eyebrow text-yellow-600">Why mechanisation is moving indoors</p>
+                    <p class="eyebrow text-leaf-dark">Why mechanisation is moving indoors</p>
                     <h2 class="text-3xl md:text-4xl xl:text-[2.75rem] leading-tight">A machine that grows food, not just a garden.</h2>
-                    <p class="text-slate-600 text-lg">
+                    <p class="text-ink-soft text-lg">
                         Mechanisation usually means tractors built for volume crops in open fields. High-value
                         produce needs consistent, controlled output, so we build the tower farm as agricultural
                         machinery: a frame, a power supply, a control system and automated delivery.
@@ -214,19 +212,19 @@
 
                     <ul class="grid gap-x-8 gap-y-4 md:grid-cols-2 text-lg pt-2">
                         <li class="flex items-start gap-3">
-                            <i class="ri-checkbox-circle-line text-xl text-yellow-600 leading-none mt-0.5"></i>
+                            <i class="ri-checkbox-circle-line text-xl text-leaf-dark leading-none mt-0.5"></i>
                             <span>Consistent, controlled output</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="ri-checkbox-circle-line text-xl text-yellow-600 leading-none mt-0.5"></i>
+                            <i class="ri-checkbox-circle-line text-xl text-leaf-dark leading-none mt-0.5"></i>
                             <span>Built for HORECA &amp; retail buyers</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="ri-checkbox-circle-line text-xl text-yellow-600 leading-none mt-0.5"></i>
+                            <i class="ri-checkbox-circle-line text-xl text-leaf-dark leading-none mt-0.5"></i>
                             <span>Engineered like machinery</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="ri-checkbox-circle-line text-xl text-yellow-600 leading-none mt-0.5"></i>
+                            <i class="ri-checkbox-circle-line text-xl text-leaf-dark leading-none mt-0.5"></i>
                             <span>Scales tower by tower</span>
                         </li>
                     </ul>
@@ -266,60 +264,60 @@
                             </defs>
 
                             <!-- power cable: solar to controller and pump (dots march toward the pump) -->
-                            <path class="flow flow-power" d="M110 128 V170 H400 V220" fill="none" stroke="#eab308" stroke-width="2" stroke-dasharray="2 5" opacity="0.7"/>
-                            <path class="flow flow-power" d="M400 290 V470 H340" fill="none" stroke="#eab308" stroke-width="2" stroke-dasharray="2 5" opacity="0.7"/>
+                            <path class="flow flow-power" d="M110 128 V170 H400 V220" fill="none" stroke="#1E1E1E" stroke-width="2" stroke-dasharray="2 5" opacity="0.7"/>
+                            <path class="flow flow-power" d="M400 290 V470 H340" fill="none" stroke="#1E1E1E" stroke-width="2" stroke-dasharray="2 5" opacity="0.7"/>
 
                             <!-- energy pulses: solar -> controller -> pump -->
                             <g filter="url(#glow)">
-                                <circle r="5" fill="#fde047" opacity="0">
+                                <circle r="5" fill="#6E9A5B" opacity="0">
                                     <animateMotion dur="5s" begin="0s" repeatCount="indefinite" path="M110 128 V170 H400 V470 H300"/>
                                     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="5s" begin="0s" repeatCount="indefinite"/>
                                 </circle>
-                                <circle r="5" fill="#fde047" opacity="0">
+                                <circle r="5" fill="#6E9A5B" opacity="0">
                                     <animateMotion dur="5s" begin="1.25s" repeatCount="indefinite" path="M110 128 V170 H400 V470 H300"/>
                                     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="5s" begin="1.25s" repeatCount="indefinite"/>
                                 </circle>
-                                <circle r="5" fill="#fde047" opacity="0">
+                                <circle r="5" fill="#6E9A5B" opacity="0">
                                     <animateMotion dur="5s" begin="2.5s" repeatCount="indefinite" path="M110 128 V170 H400 V470 H300"/>
                                     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
                                 </circle>
-                                <circle r="5" fill="#fde047" opacity="0">
+                                <circle r="5" fill="#6E9A5B" opacity="0">
                                     <animateMotion dur="5s" begin="3.75s" repeatCount="indefinite" path="M110 128 V170 H400 V470 H300"/>
                                     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.9;1" dur="5s" begin="3.75s" repeatCount="indefinite"/>
                                 </circle>
                             </g>
 
                             <!-- sensor signal: tower to controller -->
-                            <path class="flow flow-sensor" d="M282 250 H360" fill="none" stroke="#86efac" stroke-width="2" stroke-dasharray="6 4"/>
+                            <path class="flow flow-sensor" d="M282 250 H360" fill="none" stroke="#4E6B40" stroke-width="2" stroke-dasharray="6 4"/>
 
                             <!-- 02 solar panel -->
                             <g transform="translate(40 50) skewX(-12)">
-                                <rect width="140" height="70" rx="3" fill="#14532d" stroke="#eab308" stroke-width="2">
-                                    <animate attributeName="fill" values="#14532d;#3f6212;#14532d" dur="5s" repeatCount="indefinite"/>
+                                <rect width="140" height="70" rx="3" fill="#DCE6D3" stroke="#1E1E1E" stroke-width="2">
+                                    <animate attributeName="fill" values="#DCE6D3;#B9CFAA;#DCE6D3" dur="5s" repeatCount="indefinite"/>
                                 </rect>
-                                <path d="M35 0 V70 M70 0 V70 M105 0 V70 M0 35 H140" stroke="#eab308" stroke-width="1" opacity="0.6"/>
+                                <path d="M35 0 V70 M70 0 V70 M105 0 V70 M0 35 H140" stroke="#1E1E1E" stroke-width="1" opacity="0.6"/>
                             </g>
-                            <path d="M110 120 V128" stroke="#eab308" stroke-width="3"/>
+                            <path d="M110 120 V128" stroke="#1E1E1E" stroke-width="3"/>
 
                             <!-- 01 tower -->
-                            <rect x="238" y="70" width="44" height="370" rx="6" fill="#14532d" stroke="#86efac" stroke-width="2"/>
+                            <rect x="238" y="70" width="44" height="370" rx="6" fill="#DCE6D3" stroke="#4E6B40" stroke-width="2"/>
                             <!-- inner supply line -->
-                            <path class="flow flow-water" d="M260 450 V80" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+                            <path class="flow flow-water" d="M260 450 V80" stroke="#3B82C4" stroke-width="2" stroke-dasharray="4 4"/>
                             <!-- water rising -->
-                            <circle r="3" fill="#7dd3fc" opacity="0">
+                            <circle r="3" fill="#5B9BD5" opacity="0">
                                 <animateMotion dur="3.6s" begin="0s" repeatCount="indefinite" path="M260 450 V80"/>
                                 <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.6s" begin="0s" repeatCount="indefinite"/>
                             </circle>
-                            <circle r="3" fill="#7dd3fc" opacity="0">
+                            <circle r="3" fill="#5B9BD5" opacity="0">
                                 <animateMotion dur="3.6s" begin="1.2s" repeatCount="indefinite" path="M260 450 V80"/>
                                 <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.6s" begin="1.2s" repeatCount="indefinite"/>
                             </circle>
-                            <circle r="3" fill="#7dd3fc" opacity="0">
+                            <circle r="3" fill="#5B9BD5" opacity="0">
                                 <animateMotion dur="3.6s" begin="2.4s" repeatCount="indefinite" path="M260 450 V80"/>
                                 <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.6s" begin="2.4s" repeatCount="indefinite"/>
                             </circle>
                             <!-- plant pods -->
-                            <g fill="#22c55e" stroke="#bbf7d0" stroke-width="1">
+                            <g fill="#87A375" stroke="#4E6B40" stroke-width="1">
                                 <circle cx="232" cy="110" r="9"/><circle cx="288" cy="140" r="9"/>
                                 <circle cx="232" cy="170" r="9"/><circle cx="288" cy="200" r="9"/>
                                 <circle cx="232" cy="230" r="9"/><circle cx="288" cy="290" r="9"/>
@@ -328,49 +326,49 @@
                                 <circle cx="288" cy="410" r="9"/>
                             </g>
                             <!-- sensor node on tower -->
-                            <circle cx="282" cy="250" r="6" fill="#86efac" opacity="0.5">
+                            <circle cx="282" cy="250" r="6" fill="#4E6B40" opacity="0.5">
                                 <animate attributeName="r" values="6;14" dur="2.4s" repeatCount="indefinite"/>
                                 <animate attributeName="opacity" values="0.5;0" dur="2.4s" repeatCount="indefinite"/>
                             </circle>
-                            <circle cx="282" cy="250" r="6" fill="#86efac"/>
+                            <circle cx="282" cy="250" r="6" fill="#4E6B40"/>
 
                             <!-- 03 controller -->
-                            <rect x="360" y="220" width="80" height="70" rx="4" fill="#052e16" stroke="#86efac" stroke-width="2"/>
-                            <rect x="372" y="232" width="56" height="22" rx="2" fill="#14532d"/>
-                            <path d="M378 247 l8 -6 l8 4 l8 -8 l8 5 l8 -3" fill="none" stroke="#86efac" stroke-width="1.5"/>
-                            <circle cx="380" cy="274" r="3" fill="#eab308">
+                            <rect x="360" y="220" width="80" height="70" rx="4" fill="#FFFFFF" stroke="#4E6B40" stroke-width="2"/>
+                            <rect x="372" y="232" width="56" height="22" rx="2" fill="#DCE6D3"/>
+                            <path d="M378 247 l8 -6 l8 4 l8 -8 l8 5 l8 -3" fill="none" stroke="#4E6B40" stroke-width="1.5"/>
+                            <circle cx="380" cy="274" r="3" fill="#1E1E1E">
                                 <animate attributeName="opacity" values="1;0.2;1" dur="1.25s" repeatCount="indefinite"/>
-                            </circle><circle cx="392" cy="274" r="3" fill="#86efac"/>
-                            <path d="M432 220 V200 M426 194 a8 8 0 0 1 12 0 M421 189 a15 15 0 0 1 22 0" fill="none" stroke="#86efac" stroke-width="1.5"/>
+                            </circle><circle cx="392" cy="274" r="3" fill="#4E6B40"/>
+                            <path d="M432 220 V200 M426 194 a8 8 0 0 1 12 0 M421 189 a15 15 0 0 1 22 0" fill="none" stroke="#4E6B40" stroke-width="1.5"/>
 
                             <!-- 04 reservoir + pump -->
-                            <rect x="170" y="450" width="170" height="60" rx="4" fill="#052e16" stroke="#38bdf8" stroke-width="2"/>
-                            <path d="M174 470 q20 -6 40 0 t40 0 t40 0 t40 0" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.7"/>
-                            <rect x="248" y="478" width="24" height="20" rx="2" fill="#38bdf8" filter="url(#glow)">
+                            <rect x="170" y="450" width="170" height="60" rx="4" fill="#FFFFFF" stroke="#3B82C4" stroke-width="2"/>
+                            <path d="M174 470 q20 -6 40 0 t40 0 t40 0 t40 0" fill="none" stroke="#3B82C4" stroke-width="1.5" opacity="0.7"/>
+                            <rect x="248" y="478" width="24" height="20" rx="2" fill="#3B82C4" filter="url(#glow)">
                                 <animate attributeName="opacity" values="0.6;1;0.6" dur="1.25s" repeatCount="indefinite"/>
                             </rect>
 
                             <!-- labels -->
-                            <g font-family="JetBrains Mono, monospace" font-size="13" fill="#fff">
+                            <g font-family="JetBrains Mono, monospace" font-size="13" fill="#1E1E1E">
                                 <g>
-                                    <circle cx="300" cy="40" r="12" fill="#eab308"/>
-                                    <text x="300" y="44.5" text-anchor="middle" fill="#052e16" font-weight="600">1</text>
+                                    <circle cx="300" cy="40" r="12" fill="#1E1E1E"/>
+                                    <text x="300" y="44.5" text-anchor="middle" fill="#F5F4F0" font-weight="600">1</text>
                                     <text x="318" y="45">Structure</text>
-                                    <path d="M288 40 H272 V70" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
+                                    <path d="M288 40 H272 V70" fill="none" stroke="#1E1E1E" stroke-width="1" opacity="0.5"/>
                                 </g>
                                 <g>
-                                    <circle cx="52" cy="160" r="12" fill="#eab308"/>
-                                    <text x="52" y="164.5" text-anchor="middle" fill="#052e16" font-weight="600">2</text>
+                                    <circle cx="52" cy="160" r="12" fill="#1E1E1E"/>
+                                    <text x="52" y="164.5" text-anchor="middle" fill="#F5F4F0" font-weight="600">2</text>
                                     <text x="20" y="190">Power</text>
                                 </g>
                                 <g>
-                                    <circle cx="372" cy="320" r="12" fill="#eab308"/>
-                                    <text x="372" y="324.5" text-anchor="middle" fill="#052e16" font-weight="600">3</text>
+                                    <circle cx="372" cy="320" r="12" fill="#1E1E1E"/>
+                                    <text x="372" y="324.5" text-anchor="middle" fill="#F5F4F0" font-weight="600">3</text>
                                     <text x="390" y="325">Control</text>
                                 </g>
                                 <g>
-                                    <circle cx="130" cy="480" r="12" fill="#eab308"/>
-                                    <text x="130" y="484.5" text-anchor="middle" fill="#052e16" font-weight="600">4</text>
+                                    <circle cx="130" cy="480" r="12" fill="#1E1E1E"/>
+                                    <text x="130" y="484.5" text-anchor="middle" fill="#F5F4F0" font-weight="600">4</text>
                                     <text x="92" y="532">Delivery</text>
                                 </g>
                             </g>
@@ -382,22 +380,22 @@
                         <li id="sub-structure" class="machine__card card lift-card">
                             <p class="tag">01 &middot; Structure</p>
                             <h3>Aeroponic towers</h3>
-                            <p class="text-slate-300 text-sm">Vertical towers that grow upward, not outward.</p>
+                            <p class="text-ink-muted text-sm">Vertical towers that grow upward, not outward.</p>
                         </li>
                         <li id="sub-power" class="machine__card card lift-card">
                             <p class="tag">02 &middot; Power</p>
                             <h3>Solar</h3>
-                            <p class="text-sm text-slate-300">Runs pumps and sensors, independent of the grid.</p>
+                            <p class="text-sm text-ink-muted">Runs pumps and sensors, independent of the grid.</p>
                         </li>
                         <li id="sub-control" class="machine__card card lift-card">
                             <p class="tag">03 &middot; Control</p>
                             <h3>IoT sensing &amp; monitoring</h3>
-                            <p class="text-sm text-slate-300">Sensors track conditions, monitored remotely.</p>
+                            <p class="text-sm text-ink-muted">Sensors track conditions, monitored remotely.</p>
                         </li>
                         <li id="sub-delivery" class="machine__card card lift-card">
                             <p class="tag">04 &middot; Delivery</p>
                             <h3>Automated dosing</h3>
-                            <p class="text-sm text-slate-300">Nutrients and water misted onto roots on schedule.</p>
+                            <p class="text-sm text-ink-muted">Nutrients and water misted onto roots on schedule.</p>
                         </li>
                     </ol>
                 </div>
@@ -407,23 +405,23 @@
         </section>
 
         <!--~~~~~~~~~~~~~~~ 3b. Why aeroponics (full-width yellow band, separate from the machine) ~~~~~~~~~~~~~~~-->
-        <section id="aeroponics" class="bg-yellow-600 text-white py-6 md:py-8">
+        <section id="aeroponics" class="bg-leaf text-ink py-6 md:py-8">
             <div class="container">
                 <!-- text slides out from behind the white line (the wrapper clips at the line) -->
-                <div class="machine__why relative border-l-2 border-white pl-6 overflow-hidden">
+                <div class="machine__why relative border-l-2 border-ink pl-6 overflow-hidden">
                     <h3 class="slide-from-line mb-3">Why aeroponics? The machinery logic</h3>
                     <div class="grid gap-4 md:grid-cols-3 md:gap-10">
                         <div class="slide-from-line">
-                            <p class="font-bold flex items-center gap-2"><i class="ri-drop-line text-white"></i> Water efficiency</p>
-                            <p class="text-sm md:text-base text-white mt-1 text-justify">Roots are misted, not flooded, and water is recirculated.</p>
+                            <p class="font-bold flex items-center gap-2"><i class="ri-drop-line text-ink"></i> Water efficiency</p>
+                            <p class="text-sm md:text-base text-ink mt-1 text-justify">Roots are misted, not flooded, and water is recirculated.</p>
                         </div>
                         <div class="slide-from-line">
-                            <p class="font-bold flex items-center gap-2"><i class="ri-cpu-line text-white"></i> Automation fit</p>
-                            <p class="text-sm md:text-base text-white mt-1 text-justify">Every input is measurable, so it can be automated.</p>
+                            <p class="font-bold flex items-center gap-2"><i class="ri-cpu-line text-ink"></i> Automation fit</p>
+                            <p class="text-sm md:text-base text-ink mt-1 text-justify">Every input is measurable, so it can be automated.</p>
                         </div>
                         <div class="slide-from-line">
-                            <p class="font-bold flex items-center gap-2"><i class="ri-stack-line text-white"></i> Density</p>
-                            <p class="text-sm md:text-base text-white mt-1 text-justify">More plants per square metre, grown close to buyers.</p>
+                            <p class="font-bold flex items-center gap-2"><i class="ri-stack-line text-ink"></i> Density</p>
+                            <p class="text-sm md:text-base text-ink mt-1 text-justify">More plants per square metre, grown close to buyers.</p>
                         </div>
                     </div>
                 </div>
@@ -431,7 +429,7 @@
         </section>
 
         <!--~~~~~~~~~~~~~~~ 4. What the machine produces ~~~~~~~~~~~~~~~-->
-        <section id="output" class="bg-green-900 relative overflow-hidden">
+        <section id="output" class="bg-cream-200 relative overflow-hidden">
             <!-- corner leaves -->
             <div class="absolute -top-10 -left-10 rotate-[135deg] opacity-40 pointer-events-none z-0" aria-hidden="true">
                 <img src="assets/img/leaf-2-sm.png" alt="" loading="lazy" class="w-28 md:w-40 xl:w-48 origin-top-left motion-safe:animate-sway">
@@ -450,13 +448,13 @@
                 <div class="output__head space-y-5">
                     <p class="eyebrow">Output</p>
                     <h2>What the machine produces</h2>
-                    <p class="text-slate-300">
-                        Premium leafy greens for <strong class="text-white">HORECA</strong>,
-                        <strong class="text-white">retail</strong> and
-                        <strong class="text-white">institutional</strong> buyers, grown to the same
+                    <p class="text-ink-muted">
+                        Premium leafy greens for <strong class="text-ink">HORECA</strong>,
+                        <strong class="text-ink">retail</strong> and
+                        <strong class="text-ink">institutional</strong> buyers, grown to the same
                         specification every cycle.
                     </p>
-                    <p class="text-slate-300">
+                    <p class="text-ink-muted">
                         We measure output the way you would measure any machine: by its performance.
                         We'll publish measured figures once they're verified.
                     </p>
@@ -464,24 +462,24 @@
 
                 <!-- metrics: design targets; swap data-count values for verified figures when available -->
                 <div class="output__metrics inset-panel rounded-md p-6 md:p-8">
-                    <p class="font-Mono text-xs uppercase tracking-widest text-slate-400 mb-6">Machine performance &middot; design targets</p>
-                    <dl class="divide-y divide-green-800">
+                    <p class="font-Mono text-xs uppercase tracking-widest text-cream/60 mb-6">Machine performance &middot; design targets</p>
+                    <dl class="divide-y divide-white/10">
                         <!-- TODO: set data-count to the real number of planting ports per tower (one head per port) -->
                         <div class="flex items-center justify-between gap-4 py-4">
                             <dt class="text-lg md:text-xl">Yield per tower, per cycle</dt>
-                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-yellow-500 whitespace-nowrap tabular-nums"><span class="count-up" data-count="40">0</span> heads</dd>
+                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-leaf whitespace-nowrap tabular-nums"><span class="count-up" data-count="40">0</span> heads</dd>
                         </div>
                         <div class="flex items-center justify-between gap-4 py-4">
                             <dt class="text-lg md:text-xl">Cycle time</dt>
-                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-yellow-500 whitespace-nowrap tabular-nums"><span class="count-up" data-count="28">0</span> days</dd>
+                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-leaf whitespace-nowrap tabular-nums"><span class="count-up" data-count="28">0</span> days</dd>
                         </div>
                         <div class="flex items-center justify-between gap-4 py-4">
                             <dt class="text-lg md:text-xl">Water use per kg</dt>
-                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-yellow-500 whitespace-nowrap tabular-nums">&le; <span class="count-up" data-count="20">0</span> L</dd>
+                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-leaf whitespace-nowrap tabular-nums">&le; <span class="count-up" data-count="20">0</span> L</dd>
                         </div>
                         <div class="flex items-center justify-between gap-4 py-4">
                             <dt class="text-lg md:text-xl">Solar share of energy</dt>
-                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-yellow-500 whitespace-nowrap tabular-nums"><span class="count-up" data-count="100">0</span>%</dd>
+                            <dd class="font-Mono text-xl md:text-2xl font-semibold text-leaf whitespace-nowrap tabular-nums"><span class="count-up" data-count="100">0</span>%</dd>
                         </div>
                     </dl>
                 </div>
@@ -513,31 +511,31 @@
 
                 <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
                     <div class="supply__card card lift-card">
-                        <i class="ri-cpu-line text-3xl text-yellow-500"></i>
+                        <i class="ri-cpu-line text-3xl text-leaf-dark"></i>
                         <h3>Components</h3>
-                        <p class="text-sm text-slate-300">IoT sensors, controllers, pumps and tower hardware.</p>
+                        <p class="text-sm text-ink-muted">IoT sensors, controllers, pumps and tower hardware.</p>
                     </div>
                     <div class="supply__card card lift-card">
-                        <i class="ri-sun-line text-3xl text-yellow-500"></i>
+                        <i class="ri-sun-line text-3xl text-leaf-dark"></i>
                         <h3>Solar &amp; power</h3>
-                        <p class="text-sm text-slate-300">Panels, storage and power electronics sized for continuous pump and sensor loads.</p>
+                        <p class="text-sm text-ink-muted">Panels, storage and power electronics sized for continuous pump and sensor loads.</p>
                     </div>
                     <div class="supply__card card lift-card">
-                        <i class="ri-flask-line text-3xl text-yellow-500"></i>
+                        <i class="ri-flask-line text-3xl text-leaf-dark"></i>
                         <h3>Nutrient supply</h3>
-                        <p class="text-sm text-slate-300">Today this is imported, which exposes us to FX risk. We're looking for local or regional sources.</p>
+                        <p class="text-sm text-ink-muted">Today this is imported, which exposes us to FX risk. We're looking for local or regional sources.</p>
                     </div>
                     <div class="supply__card card lift-card">
-                        <i class="ri-tools-line text-3xl text-yellow-500"></i>
+                        <i class="ri-tools-line text-3xl text-leaf-dark"></i>
                         <h3>Assembly &amp; support</h3>
-                        <p class="text-sm text-slate-300">Local assembly, maintenance and spare parts support, so towers stay running between cycles.</p>
+                        <p class="text-sm text-ink-muted">Local assembly, maintenance and spare parts support, so towers stay running between cycles.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--~~~~~~~~~~~~~~~ 6. Who we want to meet ~~~~~~~~~~~~~~~-->
-        <section id="partners" class="bg-white text-green-950 relative overflow-hidden pb-0 md:pb-0">
+        <section id="partners" class="bg-cream-200 text-ink relative overflow-hidden pb-0 md:pb-0">
             <!-- floral decoration in the white top half: flipped copies hanging from both top corners -->
             <img src="assets/img/floral-1-crop.png" alt="" aria-hidden="true" loading="lazy"
                  class="partners__floral absolute top-0 right-0 w-[260px] md:w-[400px] xl:w-[480px] rotate-180 opacity-30 pointer-events-none select-none">
@@ -546,71 +544,71 @@
 
             <div class="container relative z-10">
                 <div class="partners__top space-y-4 mb-12 md:mb-16">
-                    <p class="eyebrow text-green-700">Who we want to meet</p>
+                    <p class="eyebrow text-leaf-dark">Who we want to meet</p>
                     <h2>Build the machine with us</h2>
-                    <p class="text-slate-700 max-w-2xl">If you make, move or fund the equipment behind controlled-environment agriculture, we'd like to talk.</p>
+                    <p class="text-ink-soft max-w-2xl">If you make, move or fund the equipment behind controlled-environment agriculture, we'd like to talk.</p>
                 </div>
             </div>
 
             <!-- cards carousel: dark band runs behind the lower half of the cards, full width -->
             <div class="relative">
-                <div class="absolute inset-x-0 bottom-0 top-[40%] bg-green-950" aria-hidden="true"></div>
+                <div class="absolute inset-x-0 bottom-0 top-[40%] bg-ink" aria-hidden="true"></div>
 
                 <div class="container relative z-10">
                     <div class="partners__swiper swiper">
                         <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="partner-card h-full bg-white border-2 border-gray-200 p-8 md:p-10">
-                                <div class="w-20 h-20 rounded-full bg-green-950 text-white flex items-center justify-center text-4xl">
+                            <div class="partner-card h-full bg-white border-2 border-cream-300 p-8 md:p-10">
+                                <div class="w-20 h-20 rounded-full bg-ink text-cream flex items-center justify-center text-4xl">
                                     <i class="ri-sensor-line"></i>
                                 </div>
-                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-green-950 mt-8">Component &amp; <br>Sensor Makers</h3>
-                                <p class="text-slate-600 mt-3">IoT sensors, controllers and pumps to equip every tower we build.</p>
+                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-ink mt-8">Component &amp; <br>Sensor Makers</h3>
+                                <p class="text-ink-soft mt-3">IoT sensors, controllers and pumps to equip every tower we build.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="partner-card h-full bg-white border-2 border-gray-200 p-8 md:p-10">
-                                <div class="w-20 h-20 rounded-full bg-green-950 text-white flex items-center justify-center text-4xl">
+                            <div class="partner-card h-full bg-white border-2 border-cream-300 p-8 md:p-10">
+                                <div class="w-20 h-20 rounded-full bg-ink text-cream flex items-center justify-center text-4xl">
                                     <i class="ri-drop-line"></i>
                                 </div>
-                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-green-950 mt-8">Irrigation &amp; <br>Fertigation</h3>
-                                <p class="text-slate-600 mt-3">Dosing and misting equipment that delivers nutrients precisely to the roots.</p>
+                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-ink mt-8">Irrigation &amp; <br>Fertigation</h3>
+                                <p class="text-ink-soft mt-3">Dosing and misting equipment that delivers nutrients precisely to the roots.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="partner-card h-full bg-white border-2 border-gray-200 p-8 md:p-10">
-                                <div class="w-20 h-20 rounded-full bg-green-950 text-white flex items-center justify-center text-4xl">
+                            <div class="partner-card h-full bg-white border-2 border-cream-300 p-8 md:p-10">
+                                <div class="w-20 h-20 rounded-full bg-ink text-cream flex items-center justify-center text-4xl">
                                     <i class="ri-sun-line"></i>
                                 </div>
-                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-green-950 mt-8">Solar <br>Partners</h3>
-                                <p class="text-slate-600 mt-3">Panels, storage and power systems to keep towers running off-grid.</p>
+                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-ink mt-8">Solar <br>Partners</h3>
+                                <p class="text-ink-soft mt-3">Panels, storage and power systems to keep towers running off-grid.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="partner-card h-full bg-white border-2 border-gray-200 p-8 md:p-10">
-                                <div class="w-20 h-20 rounded-full bg-green-950 text-white flex items-center justify-center text-4xl">
+                            <div class="partner-card h-full bg-white border-2 border-cream-300 p-8 md:p-10">
+                                <div class="w-20 h-20 rounded-full bg-ink text-cream flex items-center justify-center text-4xl">
                                     <i class="ri-truck-line"></i>
                                 </div>
-                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-green-950 mt-8">Machinery <br>Distributors</h3>
-                                <p class="text-slate-600 mt-3">Partners to supply, install and service our towers across Nigeria.</p>
+                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-ink mt-8">Machinery <br>Distributors</h3>
+                                <p class="text-ink-soft mt-3">Partners to supply, install and service our towers across Nigeria.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="partner-card h-full bg-white border-2 border-gray-200 p-8 md:p-10">
-                                <div class="w-20 h-20 rounded-full bg-green-950 text-white flex items-center justify-center text-4xl">
+                            <div class="partner-card h-full bg-white border-2 border-cream-300 p-8 md:p-10">
+                                <div class="w-20 h-20 rounded-full bg-ink text-cream flex items-center justify-center text-4xl">
                                     <i class="ri-plant-line"></i>
                                 </div>
-                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-green-950 mt-8">Early <br>Partners</h3>
-                                <p class="text-slate-600 mt-3">Buyers and sites ready to host our first towers or take their harvest.</p>
+                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-ink mt-8">Early <br>Partners</h3>
+                                <p class="text-ink-soft mt-3">Buyers and sites ready to host our first towers or take their harvest.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="partner-card h-full bg-white border-2 border-gray-200 p-8 md:p-10">
-                                <div class="w-20 h-20 rounded-full bg-green-950 text-white flex items-center justify-center text-4xl">
+                            <div class="partner-card h-full bg-white border-2 border-cream-300 p-8 md:p-10">
+                                <div class="w-20 h-20 rounded-full bg-ink text-cream flex items-center justify-center text-4xl">
                                     <i class="ri-funds-line"></i>
                                 </div>
-                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-green-950 mt-8">Mechanisation <br>Funders</h3>
-                                <p class="text-slate-600 mt-3">Capital to grow from our first towers to a fleet of growing machines.</p>
+                                <h3 class="text-2xl md:text-[1.7rem] font-semibold leading-tight text-ink mt-8">Mechanisation <br>Funders</h3>
+                                <p class="text-ink-soft mt-3">Capital to grow from our first towers to a fleet of growing machines.</p>
                             </div>
                         </div>
                         </div>
@@ -618,10 +616,10 @@
 
                     <!-- arrows -->
                     <div class="flex items-center justify-center gap-10 py-12 md:py-16">
-                        <button type="button" class="partners-prev w-11 h-11 rounded-full bg-white text-green-950 text-2xl flex items-center justify-center hover:bg-yellow-500 duration-300" aria-label="Previous partner type">
+                        <button type="button" class="partners-prev w-11 h-11 rounded-full bg-cream text-ink text-2xl flex items-center justify-center hover:bg-leaf duration-300" aria-label="Previous partner type">
                             <i class="ri-arrow-left-line"></i>
                         </button>
-                        <button type="button" class="partners-next w-11 h-11 rounded-full bg-white text-green-950 text-2xl flex items-center justify-center hover:bg-yellow-500 duration-300" aria-label="Next partner type">
+                        <button type="button" class="partners-next w-11 h-11 rounded-full bg-cream text-ink text-2xl flex items-center justify-center hover:bg-leaf duration-300" aria-label="Next partner type">
                             <i class="ri-arrow-right-line"></i>
                         </button>
                     </div>
@@ -637,7 +635,7 @@
 
             <div class="about__top px-4 flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
                 <h2 class="title">About Us</h2>
-                <p class="max-w-2xl text-slate-300">Agritech from Lagos, building machines that grow food.</p>
+                <p class="max-w-2xl text-ink-muted">Agritech from Lagos, building machines that grow food.</p>
             </div>
 
             <div class="container space-y-10 xl:space-y-0">
@@ -651,9 +649,9 @@
                         <div class="space-y-5">
                             <h3 class="text-xl md:text-2xl xl:text-3xl font-normal">
                                 Growing machinery <br>
-                                for <span class="text-yellow-500">Nigerian agribusiness</span>
+                                for <span class="text-leaf-dark">Nigerian agribusiness</span>
                             </h3>
-                            <p class="text-slate-300 font-Lobster">
+                            <p class="text-ink-muted text-base md:text-lg leading-relaxed">
                                 Gaia Labs is a Lagos-based agritech company building automated growing machinery for Nigerian agribusiness. Our solar-powered, IoT-monitored aeroponic towers grow premium leafy greens for HORECA, retail and institutional buyers, with consistent output all year round.
                             </p>
                         </div>
@@ -670,9 +668,9 @@
                         <div class="space-y-5">
                             <h3 class="text-xl md:text-2xl xl:text-3xl font-normal">
                                 Developed in Lagos, <br>
-                                <span class="text-yellow-500">built to scale</span>
+                                <span class="text-leaf-dark">built to scale</span>
                             </h3>
-                            <p class="text-slate-300 font-Lobster">
+                            <p class="text-ink-muted text-base md:text-lg leading-relaxed">
                                 We're bringing equipment, irrigation and fertigation, automation and energy together into one operation. Next, we're building a local supply chain for components, solar, nutrients and maintenance, so every tower can be assembled, run and repaired close to where it grows.
                             </p>
                         </div>
@@ -691,7 +689,7 @@
                 <div class="contact__about space-y-5">
                     <p class="eyebrow">About</p>
                     <h2>Gaia Labs</h2>
-                    <p class="text-slate-300">
+                    <p class="text-ink-muted">
                         Gaia Labs is developing an integrated aeroponic growing operation for Nigerian agriculture, with a focus on agricultural equipment, irrigation and fertigation systems, automation, energy integration and machinery supply-chain partnerships.
                     </p>
                 </div>
@@ -701,16 +699,16 @@
                     <h2>Get in touch</h2>
                     <div class="flex flex-col gap-3">
                         <a href="mailto:adetomiwa@gaialabs.world" class="contact-link">
-                            <i class="ri-mail-line text-2xl text-yellow-500"></i>
+                            <i class="ri-mail-line text-2xl text-leaf-dark"></i>
                             <span>adetomiwa@gaialabs.world</span>
                         </a>
                         <a href="https://wa.me/2347048000703" target="_blank" rel="noopener" class="contact-link">
-                            <i class="ri-whatsapp-line text-2xl text-yellow-500"></i>
+                            <i class="ri-whatsapp-line text-2xl text-leaf-dark"></i>
                             <span>WhatsApp</span>
                         </a>
                         <!-- TODO: replace with the real LinkedIn page URL -->
                         <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="contact-link">
-                            <i class="ri-linkedin-fill text-2xl text-yellow-500"></i>
+                            <i class="ri-linkedin-fill text-2xl text-leaf-dark"></i>
                             <span>LinkedIn</span>
                         </a>
                     </div>
@@ -720,15 +718,15 @@
     </main>
 
     <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
-    <footer class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative">
+    <footer class="bg-cream-200 text-ink pt-20 pb-10 md:pt-28 relative">
         <!-- newsletter -->
-        <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
-            <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md">
-                <h3 class="text-xl md:text-2xl xl:text-3xl font-normal"><span class="text-yellow-500">Subscribe</span> to our newsletter</h3>
+        <div class="container text-cream absolute top-0 right-0 left-0 -translate-y-1/2">
+            <div class="bg-ink px-10 pt-5 pb-10 space-y-5 rounded-md">
+                <h3 class="text-xl md:text-2xl xl:text-3xl font-normal"><span class="text-leaf">Subscribe</span> to our newsletter</h3>
 
                 <div class="flex flex-col md:flex-row gap-1">
-                    <input type="email" placeholder="Your Email Address" class="w-full px-5 py-3 text-green-900 rounded-md outline-none">
-                    <button class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+                    <input type="email" placeholder="Your Email Address" class="w-full px-5 py-3 text-ink bg-cream rounded-md outline-none">
+                    <button class="flex items-center justify-center gap-1 bg-leaf text-ink font-bold px-5 py-3 rounded-md hover:opacity-80 duration-300">
                         <span>Subscribe</span>
                         <i class="ri-send-plane-2-fill"></i>
                     </button>
@@ -739,12 +737,12 @@
         <!-- social icon -->
         <!-- TODO: point LinkedIn at the real page -->
         <div class="footer__icon container mt-16 mb-10">
-            <div class="border-b border-green-500 relative">
+            <div class="border-b border-leaf relative">
                 <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
-                    <div class="bg-yellow-100 text-lg text-center space-x-2">
-                        <a href="mailto:adetomiwa@gaialabs.world" aria-label="Email"><i class="ri-mail-line hover:text-yellow-500 duration-300"></i></a>
-                        <a href="https://wa.me/2347048000703" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line hover:text-yellow-500 duration-300"></i></a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill hover:text-yellow-500 duration-300"></i></a>
+                    <div class="bg-cream-200 text-lg text-center space-x-2">
+                        <a href="mailto:adetomiwa@gaialabs.world" aria-label="Email"><i class="ri-mail-line hover:text-leaf-dark duration-300"></i></a>
+                        <a href="https://wa.me/2347048000703" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line hover:text-leaf-dark duration-300"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill hover:text-leaf-dark duration-300"></i></a>
                     </div>
                 </div>
             </div>
@@ -754,10 +752,7 @@
         <div class="footer__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
             <!-- item 1 -->
             <div>
-                <div class="text-7xl text-green-700 text-center inline-block">
-                    <i class="ri-plant-fill"></i>
-                    <p class="font-bold text-xl sm:text-2xl">Gaia Labs</p>
-                </div>
+                <img src="assets/img/logo.webp" alt="Gaia Labs" loading="lazy" class="h-28 w-auto mx-auto md:mx-0">
             </div>
 
             <!-- item 2 -->
@@ -805,7 +800,7 @@
     </footer>
 
     <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
-    <a href="#" class="fixed right-4 -bottom-1/2 bg-yellow-500 text-green-950 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300" id="scroll-up" aria-label="Back to top">
+    <a href="#" class="fixed right-4 -bottom-1/2 bg-ink text-cream shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300" id="scroll-up" aria-label="Back to top">
         <i class="ri-arrow-up-line"></i>
     </a>
 
