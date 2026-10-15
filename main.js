@@ -197,25 +197,6 @@ if(riseCards.length && "IntersectionObserver" in window) {
 }
 
 
-/*~~~~~~~~~~~~~~~ COPY EMAIL ADDRESS ~~~~~~~~~~~~~~~*/
-const copyEmail = document.getElementById("copy-email")
-
-if(copyEmail) {
-    copyEmail.addEventListener("click", async () => {
-        const label = copyEmail.querySelector("span")
-        try {
-            await navigator.clipboard.writeText(copyEmail.dataset.email)
-            label.textContent = "Copied!"
-        } catch {
-            // clipboard blocked: fall back to opening the email app
-            window.location.href = "mailto:" + copyEmail.dataset.email
-            return
-        }
-        setTimeout(() => label.textContent = "Copy address", 2000)
-    })
-}
-
-
 /*~~~~~~~~~~~~~~~ PARTNERS CAROUSEL ~~~~~~~~~~~~~~~*/
 // slides on its own, cards travelling left to right; arrows step through manually
 const partnersSwiper = new Swiper('.partners__swiper', {
