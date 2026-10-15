@@ -197,36 +197,6 @@ if(riseCards.length && "IntersectionObserver" in window) {
 }
 
 
-/*~~~~~~~~~~~~~~~ SWIPER ~~~~~~~~~~~~~~~*/
-const swiper = new Swiper('.review__swiper .swiper', {
-    // Optional parameters
-    speed: 400,
-    spaceBetween: 30,
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-    },
-
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
-    grabCursor: true,
-    breakpoints: {
-        640: {
-            slidesPerView: 1
-        },
-        768: {
-            slidesPerView: 2
-        },
-        1024: {
-            slidesPerView: 3
-        },
-    }
-  });
-
-
 /*~~~~~~~~~~~~~~~ PARTNERS CAROUSEL ~~~~~~~~~~~~~~~*/
 // slides on its own, cards travelling left to right; arrows step through manually
 const partnersSwiper = new Swiper('.partners__swiper', {
@@ -304,8 +274,8 @@ sr.reveal(`.output__metrics`, {delay: 500, origin: "right"})
 
 // extra sections from the original template
 sr.reveal(`.home__image`, {delay: 500, scale: 0.5})
-sr.reveal(`.about__top, .review__top, .review__swiper, .footer__icon, .footer__content, .copy__right`)
+sr.reveal(`.about__top, .footer__icon, .footer__content, .copy__right`)
 sr.reveal(`.about__leaf`, {delay: 1000, origin: "right"})
 sr.reveal(`.about__item__1-content, .about__item__2-img`, {origin: "right"})
 sr.reveal(`.about__item__2-content, .about__item__1-img`, {origin: "left"})
-sr.reveal(`.review__leaf, .footer__floral`, {delay: 1000, origin: "left"})
+sr.reveal(`.footer__floral`, {delay: 1000, origin: "left"})
