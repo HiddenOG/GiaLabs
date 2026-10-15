@@ -5,7 +5,7 @@
   "description": "Gaia Labs website: automated growing machinery for Nigerian agribusiness.",
   "main": "index.html",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./output.css --minify",
+    "build:css": "tailwindcss -i ./input.css -o ./output.css --minify",
     "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
   },
   "keywords": [],

@@ -17,12 +17,15 @@ The site uses Tailwind CSS v3. After changing classes in `index.html` or styles 
 
 ```bash
 npm install
-npm run build     # one-off minified build
-npm run watch     # rebuild automatically while editing
+npm run build:css   # one-off minified build
+npm run watch       # rebuild automatically while editing
 ```
 
 Always commit the updated `output.css`.
 
 ## Deploying
 
-Hosted with GitHub Pages: **Settings → Pages → Source: Deploy from a branch → `main` / root**.
+Static site, no build step on the host: `output.css` is committed already.
+
+- **Vercel:** Framework Preset *Other*; leave Build Command and Output Directory empty.
+- **GitHub Pages:** Settings → Pages → Deploy from a branch → `main` / root.
