@@ -275,7 +275,7 @@ sr.reveal(`.output__metrics`, {delay: 500, origin: "right"})
 // extra sections from the original template
 sr.reveal(`.home__image`, {delay: 500, scale: 0.5})
 sr.reveal(`.about__top, .footer__icon, .footer__content, .copy__right`)
-sr.reveal(`.about__leaf`, {delay: 1000, origin: "right"})
+sr.reveal(`.about__leaf, .contact__leaf`, {delay: 1000, origin: "right"})
 sr.reveal(`.about__item__1-content`, {origin: "left"})
 sr.reveal(`.about__item__2-content`, {origin: "right", delay: 500})
 sr.reveal(`.about__leaf2, .footer__floral`, {delay: 1000, origin: "left"})

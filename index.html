@@ -663,17 +663,23 @@
         </section>
 
         <!--~~~~~~~~~~~~~~~ 7. About & contact ~~~~~~~~~~~~~~~-->
-        <section id="contact" class="mb-20 md:mb-28">
-            <div class="container grid gap-12 lg:grid-cols-2">
-                <div class="contact__about space-y-5">
-                    <p class="eyebrow">About</p>
-                    <h2>Gaia Labs</h2>
+        <section id="contact" class="relative overflow-hidden mb-20 md:mb-28">
+            <!-- leaf decoration, top-right -->
+            <div class="contact__leaf absolute -top-8 -right-12 opacity-50 pointer-events-none" aria-hidden="true">
+                <img src="assets/img/leaf-3.webp" alt="" loading="lazy" class="w-40 md:w-52 xl:w-64">
+            </div>
+
+            <!-- both columns share three rows (label / heading / content) so the text lines up with the email card -->
+            <div class="relative z-10 container grid gap-x-16 lg:grid-cols-2">
+                <div class="contact__about grid gap-y-5 content-start lg:grid-rows-subgrid lg:row-span-3">
+                    <p class="eyebrow">Work with us</p>
+                    <h2>Let's build it together</h2>
                     <p class="text-ink-muted">
-                        Gaia Labs is developing an integrated aeroponic growing operation for Nigerian agriculture, with a focus on agricultural equipment, irrigation and fertigation systems, automation, energy integration and machinery supply-chain partnerships.
+                        We're connecting with equipment makers, irrigation and fertigation suppliers, solar partners, distributors, early buyers and funders. Tell us who you are and what you'd like to explore, and we'll take it from there.
                     </p>
                 </div>
 
-                <div class="contact__links space-y-5">
+                <div class="contact__links grid gap-y-5 content-start mt-12 lg:mt-0 lg:grid-rows-subgrid lg:row-span-3">
                     <p class="eyebrow">Contact</p>
                     <h2>Get in touch</h2>
                     <div class="flex flex-col gap-3">
