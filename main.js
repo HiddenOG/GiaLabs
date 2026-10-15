@@ -171,10 +171,10 @@ if(whyBlock) {
 
 
 /*~~~~~~~~~~~~~~~ CARDS: QUICK RISE-IN (once) ~~~~~~~~~~~~~~~*/
-const riseCards = document.querySelectorAll(".machine__card, .supply__card, .service__card")
+const riseCards = document.querySelectorAll(".machine__card, .supply__card")
 
 // stagger within each group of cards
-;[".machine__card", ".supply__card", ".service__card"].forEach(sel => {
+;[".machine__card", ".supply__card"].forEach(sel => {
     document.querySelectorAll(sel).forEach((card, i) => {
         card.classList.add("rise-in")
         card.style.setProperty("--d", `${i * 0.12}s`)
@@ -304,8 +304,7 @@ sr.reveal(`.output__metrics`, {delay: 500, origin: "right"})
 
 // extra sections from the original template
 sr.reveal(`.home__image`, {delay: 500, scale: 0.5})
-sr.reveal(`.about__top, .popular__top, .review__top, .review__swiper, .footer__icon, .footer__content, .copy__right`)
-sr.reveal(`.popular__card`, {interval: 100})
+sr.reveal(`.about__top, .review__top, .review__swiper, .footer__icon, .footer__content, .copy__right`)
 sr.reveal(`.about__leaf`, {delay: 1000, origin: "right"})
 sr.reveal(`.about__item__1-content, .about__item__2-img`, {origin: "right"})
 sr.reveal(`.about__item__2-content, .about__item__1-img`, {origin: "left"})
